@@ -33,6 +33,10 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+      "homepage": "https://srikanth30510.github.io/ToDos/",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+
   }
 }
